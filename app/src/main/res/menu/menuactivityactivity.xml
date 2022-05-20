@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="HOME"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Photos"
+        android:orderInCategory="100"
+        android:title="PHOTOS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/video"
+        android:orderInCategory="100"
+        android:title="VIDEO"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Aboutus"
+        android:orderInCategory="100"
+        android:title="ABOUT US"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_launcher" />
+
+
+    <Button
+        android:id="@+id/closeDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+
+
+
+    <TextView
+        android:id="@+id/homeNavbar"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        style="@style/CardView"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Videos"
+        style="@style/CardView"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photos"
+        style="@style/CardView"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/uploadQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="upload Quote"
+        style="@style/CardView"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/aboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        style="@style/CardView"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>

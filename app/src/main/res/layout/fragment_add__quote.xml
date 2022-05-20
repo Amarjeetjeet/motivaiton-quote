@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Add_Quote">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="20"
+            android:padding="10dp"
+            android:background="@drawable/ed"
+            android:minLines="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/main"
+            android:inputType="textMultiLine"
+            android:hint="Quote" />
+
+        <EditText
+            android:id="@+id/quoteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/ed"
+            android:layout_below="@+id/quote"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/quoteName"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            />
+
+
+</RelativeLayout>
+</FrameLayout>
